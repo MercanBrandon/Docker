@@ -11,7 +11,7 @@ def hello_world():
 
 @app.route('/books')
 def getBooks():
-    return data.head().to_dict()
+    return data.head().to_json(orient='records')
 
 @app.route('/book/<isbn>')
 def getBookByISBN(isbn):
