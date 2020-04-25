@@ -35,7 +35,7 @@ Un conteneur est soit Stateless soit stateful
 3. Dockerfile 
 C'est le fichier de configuration du conteneur docker. 
 
-## Instalation 
+## Installation 
 
 voir https://docs.docker.com/engine/install/ubuntu/ 
 
