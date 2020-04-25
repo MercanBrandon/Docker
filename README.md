@@ -33,7 +33,7 @@ Un conteneur est soit Stateless soit stateful
 </p>
 
 3. Dockerfile 
-C'est le fichier de condiguration du conteneur docker. 
+C'est le fichier de configuration du conteneur docker. 
 
 ## Instalation 
 
@@ -47,7 +47,7 @@ Par defaut, les images, containers, volume, etc. sont contenus dans :
 pour lancer le conteneur hello-world 
 > docker run hello-world
 
-Dans les fait, docker vas rechercher un conteneur en local nommé hello-world. S'il n'en trouve pas il cherchera un conteneur hello-world sur le web, dans dockerhub. Il s'agit d'une solutions semblable à github sauf q'ici il est question de partagé des Images docker.
+Dans les faits, docker vas rechercher un conteneur en local nommé hello-world. S'il n'en trouve pas, il cherchera un conteneur hello-world sur le web, dans dockerhub. Il s'agit d'une solution semblable à github sauf qu'ici il est question de partager des Images docker.
 
 Pour lancer un conteneur 2048 
 >docker run -d -p 8080:80 alexwhen/docker-2048
@@ -86,7 +86,7 @@ A l'instart de .gitignore il existe un .dockerignore
 >.git
 >README.md
 
-Visualiser l'ensemble des images locale
+Visualiser l'ensemble des images locales
 >docker images
 
 afin de lancer le build de son image 
